@@ -1418,6 +1418,9 @@ app.post('/Jailbreak', (req, res) => {
 app.post('/NonJailbreak', (req, res) => {
   return handleProxyRequest(req, res, false);
 });
+app.post('/aistu', (req, res) => {
+  return handleProxyRequest(req, res, false);
+});
 
 app.get('/', (req, res) => {
   res.json({
