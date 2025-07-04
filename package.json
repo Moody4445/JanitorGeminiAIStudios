@@ -1,14 +1,14 @@
 {
-  "name": "janitor-openrouter-proxy",
+  "name": "gemini-proxy",
   "version": "1.0.0",
-  "description": "Ein Proxy, um JanitorAI mit openrouter.ai zu verbinden und safety_settings anzupassen",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
-"dependencies": {
-  "cors": "^2.8.5",
-  "axios": "^1.3.4",
-  "express": "^4.18.2"
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
   }
 }
+
